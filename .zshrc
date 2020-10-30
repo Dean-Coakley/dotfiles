@@ -7,17 +7,18 @@ export ZSH="/Users/dean/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git kubectl ripgrep helm)
+plugins=(
+  git
+  kubectl
+  ripgrep
+  helm
+)
 
 source $ZSH/oh-my-zsh.sh
 
